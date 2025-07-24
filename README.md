@@ -10,10 +10,15 @@ Este repositorio contiene mis ejercicios, prácticas y mini proyectos mientras a
 
 ## 📁 Estructura del repositorio
 verilog-practice/
+
 ├── 01_basics/ # Compuertas lógicas y operaciones simples
+
 ├── 02_modules/ # Módulos combinacionales
+
 ├── 03_sequential/ # Flip-flops, contadores, registros
+
 ├── 04_projects/ # Mini proyectos con múltiples módulos
+
 └── README.md
 
 
