@@ -1,6 +1,6 @@
 # Verilog Practice – Digital Design Learning
 
-Este repositorio contiene mis ejercicios, prácticas y mini proyectos mientras aprendo Verilog, un lenguaje de descripción de hardware (HDL). Está pensado como un cuaderno de aprendizaje personal, pero también como una forma de compartir y demostrar mis progresos.
+Este repositorio contiene mis ejercicios, prácticas y mini proyectos mientras aprendo Verilog desde cero, un lenguaje de descripción de hardware (HDL). 
 
 ## 🔧 Herramientas utilizadas
 
