@@ -52,10 +52,12 @@ Cada carpeta contiene:
 - [ ] Registro de desplazamiento
 - [ ] Máquina de estados simple
 
-## 💡 Próximos pasos
+### 04 – Mini proyectos
+- [ ] Semáforo inteligente (FSM)
+- [ ] Cronómetro en binario
+- [ ] ALU simple
+- [ ] Mini CPU de 4 instrucciones
+- [ ] Juego estilo “Simon” con FSM
 
-- [ ] Añadir diagramas de bloques (draw.io o ASCII)
-- [ ] Simular con GTKWave (opcional)
-- [ ] Diseñar una ALU simple
 
 
