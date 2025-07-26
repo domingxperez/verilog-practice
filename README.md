@@ -57,8 +57,8 @@ vvp simv
 - [✅] AND Gate
 - [✅] OR Gate
 - [✅] NOT Gate
-- [ ] NAND Gate
-- [ ] XOR Gate
+- [✅] NAND Gate
+- [✅] XOR Gate
 
 ### 02 – Combinational Modules
 - [ ] 2:1 Multiplexer
