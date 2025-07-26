@@ -1,4 +1,4 @@
-module and_gate (
+module or_gate (
     input wire A,
     input wire B,
     output wire Y
