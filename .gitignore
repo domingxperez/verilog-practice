@@ -1,9 +1,9 @@
 # 👉 Archivos generados por simulación
-simv              # Ejecutable de Icarus Verilog
-*.vcd             # Archivo de ondas para GTKWave
-*.lxt             # Otro posible formato de ondas
+simv               
+*.vcd            
+*.lxt          
 *.fst
-*.vvp             # Intermedio de Verilog
+*.vvp             
 
 # 👉 Archivos temporales de logs o dumps
 *.log
