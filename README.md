@@ -24,7 +24,7 @@ verilog-practice/
 
 ## 🧪 Cómo simular
 
-### 🧠 Opción 1: Simulación online (recomendada para empezar)
+### 🧠 Opción 1: Simulación online
 
 Puedes probar todos los ejercicios directamente en [EDA Playground](https://www.edaplayground.com/):
 
@@ -62,7 +62,7 @@ vvp simv
 ### 01 – Básicos
 - [✅] AND Gate
 - [✅] OR Gate
-- [ ] NOT Gate
+- [✅] NOT Gate
 - [ ] NAND Gate
 - [ ] XOR Gate
 
