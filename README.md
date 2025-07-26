@@ -1,89 +1,81 @@
 # Verilog Practice – Digital Design Learning
 
-Este repositorio contiene mis ejercicios, prácticas y mini proyectos mientras aprendo Verilog desde cero, un lenguaje de descripción de hardware (HDL). 
+This repository contains my exercises, practices, and mini projects while learning Verilog from scratch, a hardware description language (HDL).
 
-## 🔧 Herramientas utilizadas
+## 🔧 Tools Used
 
-- [EDA Playground](https://www.edaplayground.com/) – simulador online
-- Estilo de codificación basado en módulos `.v` y testbenches `_tb.v`
-- (Opcional más adelante) Icarus Verilog + GTKWave para simulación local
+- [EDA Playground](https://www.edaplayground.com/) – online simulator  
+- Coding style based on `.v` modules and `_tb.v` testbenches  
+- Icarus Verilog + GTKWave for local simulation
 
-## 📁 Estructura del repositorio
+## 📁 Repository Structure  
 verilog-practice/
 
-├── 01_basics/ # Compuertas lógicas y operaciones simples
-
-├── 02_modules/ # Módulos combinacionales
-
-├── 03_sequential/ # Flip-flops, contadores, registros
-
-├── 04_projects/ # Mini proyectos con múltiples módulos
-
+├── 01_basics/   # Logic gates and simple operations  
+├── 02_modules/  # Combinational modules  
+├── 03_sequential/ # Flip-flops, counters, registers  
+├── 04_projects/ # Mini projects with multiple modules  
 └── README.md
 
+## 🧪 How to Simulate
 
-## 🧪 Cómo simular
+### 🧠 Option 1: Online Simulation
 
-### 🧠 Opción 1: Simulación online
+You can test all exercises directly on [EDA Playground](https://www.edaplayground.com/):
 
-Puedes probar todos los ejercicios directamente en [EDA Playground](https://www.edaplayground.com/):
+- No installation required.  
+- Automatic waveform visualization with EPWave.  
+- Ideal for practicing small modules.
 
-- No requiere instalación.
-- Visualización automática de señales con EPWave.
-- Ideal para practicar módulos pequeños.
-
-👉 Abre el archivo `.v` y el `testbench`, pégalos en EDA Playground y selecciona el compilador `Icarus Verilog`.
+👉 Open the `.v` file and the testbench, paste them into EDA Playground, and select the `Icarus Verilog` compiler.
 
 ---
 
-### 💻 Opción 2: Simulación local con Icarus Verilog
+### 💻 Option 2: Local Simulation with Icarus Verilog
 
-Si prefieres trabajar desde tu PC o en GitHub Codespaces:
+If you prefer working from your PC or GitHub Codespaces:
 
-#### 🧰 Requisitos:
-- [Icarus Verilog](https://bleyer.org/icarus/)
-- (Opcional) [GTKWave](https://gtkwave.sourceforge.net/) para ver señales
-- Terminal (`bash`, `cmd`, o GitHub Codespace)
+#### 🧰 Requirements:
+- [Icarus Verilog](https://bleyer.org/icarus/)  
+- (Optional) [GTKWave](https://gtkwave.sourceforge.net/) for viewing waveforms  
+- Terminal (`bash`, `cmd`, or GitHub Codespace)
 
-#### ▶️ Pasos para compilar y ejecutar:
+#### ▶️ Steps to compile and run:
 
 ```bash
-cd ruta_con_ficheros.v
+cd path_to_files
 
-# Compilar
-iverilog -o simv modulo.v testbench.v
+# Compile
+iverilog -o simv module.v testbench.v
 
-# Ejecutar
+# Run
 vvp simv
 ```
+## ✅ Completed Exercises
 
-## ✅ Ejercicios completados
-
-### 01 – Básicos
+### 01 – Basics
 - [✅] AND Gate
 - [✅] OR Gate
 - [✅] NOT Gate
 - [ ] NAND Gate
 - [ ] XOR Gate
 
-### 02 – Módulos combinacionales
-- [ ] Multiplexor 2:1
-- [ ] Multiplexor 4:1
-- [ ] Comparador de 4 bits
-- [ ] Decodificador 2→4
+### 02 – Combinational Modules
+- [ ] 2:1 Multiplexer
+- [ ] 4:1 Multiplexer
+- [ ] 4-bit Comparator
+- [ ] 2-to-4 Decoder
 
-### 03 – Módulos secuenciales
-- [ ] Flip-flop tipo D
-- [ ] Contador binario 4 bits
-- [ ] Registro de desplazamiento
-- [ ] Máquina de estados simple
+### 03 – Sequential Modules
+- [ ] D Flip-flop
+- [ ] 4-bit Binary Counter
+- [ ] Shift Register
+- [ ] Simple State Machine
 
-### 04 – Mini proyectos
-- [ ] Semáforo inteligente (FSM)
-- [ ] Cronómetro en binario
-- [ ] ALU simple
-- [ ] Mini CPU de 4 instrucciones
-- [ ] Juego estilo “Simon” con FSM
-
-
+### 04 – Mini Projects
+- [ ] Smart Traffic Light (FSM)
+- [ ] Binary Stopwatch
+- [ ] Simple ALU
+- [ ] Mini 4-instruction CPU
+- [ ] “Simon” style Game with FSM
 
