@@ -55,12 +55,13 @@ iverilog -o simv modulo.v testbench.v
 
 # Ejecutar
 vvp simv
+```
 
 ## ✅ Ejercicios completados
 
 ### 01 – Básicos
-- [ ] AND Gate
-- [ ] OR Gate
+- [✅] AND Gate
+- [✅] OR Gate
 - [ ] NOT Gate
 - [ ] NAND Gate
 - [ ] XOR Gate
