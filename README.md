@@ -24,12 +24,37 @@ verilog-practice/
 
 ## 🧪 Cómo simular
 
-Actualmente todos los ejercicios están pensados para simularse en [EDA Playground](https://www.edaplayground.com/).
+### 🧠 Opción 1: Simulación online (recomendada para empezar)
 
-Cada carpeta contiene:
-- Un archivo `.v` con el módulo principal
-- Un archivo `_tb.v` con el testbench
-- (Opcional) Enlace al playground en comentarios o en un archivo `.txt`
+Puedes probar todos los ejercicios directamente en [EDA Playground](https://www.edaplayground.com/):
+
+- No requiere instalación.
+- Visualización automática de señales con EPWave.
+- Ideal para practicar módulos pequeños.
+
+👉 Abre el archivo `.v` y el `testbench`, pégalos en EDA Playground y selecciona el compilador `Icarus Verilog`.
+
+---
+
+### 💻 Opción 2: Simulación local con Icarus Verilog
+
+Si prefieres trabajar desde tu PC o en GitHub Codespaces:
+
+#### 🧰 Requisitos:
+- [Icarus Verilog](https://bleyer.org/icarus/)
+- (Opcional) [GTKWave](https://gtkwave.sourceforge.net/) para ver señales
+- Terminal (`bash`, `cmd`, o GitHub Codespace)
+
+#### ▶️ Pasos para compilar y ejecutar:
+
+```bash
+cd ruta_con_ficheros.v
+
+# Compilar
+iverilog -o simv modulo.v testbench.v
+
+# Ejecutar
+vvp simv
 
 ## ✅ Ejercicios completados
 
