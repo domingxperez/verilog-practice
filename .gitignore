@@ -1,0 +1,30 @@
+# 👉 Archivos generados por simulación
+simv              # Ejecutable de Icarus Verilog
+*.vcd             # Archivo de ondas para GTKWave
+*.lxt             # Otro posible formato de ondas
+*.fst
+*.vvp             # Intermedio de Verilog
+
+# 👉 Archivos temporales de logs o dumps
+*.log
+*.out
+*.dump
+*.bak
+*.sav
+
+# 👉 Archivos de backup
+*~
+*.swp
+*.swo
+*.tmp
+
+# 👉 Carpetas de entorno (por si usas VSCode o GitHub Codespaces)
+.vscode/
+.idea/
+*.code-workspace
+
+# 👉 Node/Tooling (si más adelante usas cosas externas)
+node_modules/
+dist/
+build/
+.env
