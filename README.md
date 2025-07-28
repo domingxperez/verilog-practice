@@ -61,9 +61,9 @@ vvp simv
 - [✅] XOR Gate
 
 ### 02 – Combinational Modules
-- [ ] 2:1 Multiplexer
-- [ ] 4:1 Multiplexer
-- [ ] 4-bit Comparator
+- [✅] 2:1 Multiplexer
+- [✅] 4:1 Multiplexer
+- [✅] 4-bit Comparator
 - [ ] 2-to-4 Decoder
 
 ### 03 – Sequential Modules
