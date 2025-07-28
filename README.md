@@ -64,7 +64,7 @@ vvp simv
 - [✅] 2:1 Multiplexer
 - [✅] 4:1 Multiplexer
 - [✅] 4-bit Comparator
-- [ ] 2-to-4 Decoder
+- [✅] 2-to-4 Decoder
 
 ### 03 – Sequential Modules
 - [ ] D Flip-flop
