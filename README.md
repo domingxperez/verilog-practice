@@ -68,7 +68,7 @@ vvp simv
 
 ### 03 – Sequential Modules
 - [✅] D Flip-flop
-- [ ] 4-bit Binary Counter
+- [✅] 4-bit Binary Counter
 - [ ] Shift Register
 - [ ] Simple State Machine
 
