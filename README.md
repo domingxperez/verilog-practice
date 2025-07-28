@@ -67,7 +67,7 @@ vvp simv
 - [✅] 2-to-4 Decoder
 
 ### 03 – Sequential Modules
-- [ ] D Flip-flop
+- [✅] D Flip-flop
 - [ ] 4-bit Binary Counter
 - [ ] Shift Register
 - [ ] Simple State Machine
