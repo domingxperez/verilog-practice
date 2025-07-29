@@ -70,7 +70,7 @@ vvp simv
 - [✅] D Flip-flop
 - [✅] 4-bit Binary Counter
 - [✅] Shift Register
-- [ ] Simple State Machine
+- [✅] Simple State Machine
 
 ### 04 – Mini Projects
 - [ ] Smart Traffic Light (FSM)
