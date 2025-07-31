@@ -72,10 +72,3 @@ vvp simv
 - [✅] Shift Register
 - [✅] Simple State Machine
 
-### 04 – Mini Projects
-- [ ] Smart Traffic Light (FSM)
-- [ ] Binary Stopwatch
-- [ ] Simple ALU
-- [ ] Mini 4-instruction CPU
-- [ ] “Simon” style Game with FSM
-
