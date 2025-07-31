@@ -14,7 +14,6 @@ verilog-practice/
 ├── 01_basics/   # Logic gates and simple operations  
 ├── 02_modules/  # Combinational modules  
 ├── 03_sequential/ # Flip-flops, counters, registers  
-├── 04_projects/ # Mini projects with multiple modules  
 └── README.md
 
 ## 🧪 How to Simulate
